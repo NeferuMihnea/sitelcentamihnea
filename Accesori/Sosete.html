@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap Exercise</title>
+
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/styles.css">
+	<style>
+	
+	.col-md-12,
+	.col-md-9,
+	.col-md-3,
+	.col {
+	
+	text-align:center;
+	padding:20px;
+}
+</style>
+</head>
+<body>
+    <div class="top">
+        <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-md-3">
+                <img src="../PozeNike/logo.png" class="logo" alt=""  width"200px" height="100"/>
+            </div>
+            <div class="col-md-6">
+            <ul class="navigation">
+            <li>	<div class="dropdown">
+                        <button class="dropbtn"><a href="../Homefinal.html">ADIDAȘI</button>
+                            <div class="dropdown-content">
+                                <a href="../Adidasi/Air-Max.html">AIR MAX</a>
+                                <a href="../Adidasi/Af-1.html">AIR FORCE ONE</a>
+                                <a href="../Adidasi/blaze.html">BLAZE</a>
+                                <a href="../Adidasi/SB.html">SB</a>
+                                <a href="../Adidasi/fotbal.html">FOTBAL</a>
+                                <a href="../Adidasi/baschet.html">BASKET</a></div></li>
+            <li> <div class="dropdown">
+                        <button class="dropbtn"><a href="../Homefinal.html">HAINE</button>
+                            <div class="dropdown-content">
+                                <a href="../Haine/Tricouri.html">TRICOURI</a>
+                                <a href="../Haine/Bluze.html">BLUZE</a>
+                                <a href="../Haine/Hanorace.html">HANORACE</a>
+                                <a href="../Haine/Trening.html">TRENING</a>
+                                <a href="../Haine/Pantaloni.html">PANTALONI</a>
+                                <a href="../Haine/Pantaloni-Scurti.html">PANTALONI SCURTI</a></div></li>
+            <li> <div class="dropdown">
+                        <button class="dropbtn"><a href="../Homefinal.html">ACCESORII</button>
+                            <div class="dropdown-content">
+                                <a href="Sepci.html">SEPCI</a>
+                                <a href="Portofele.html">PORTOFELE</a>
+                                <a href="Ceasuri.html">CEAS</a>
+                                <a href="Sosete.html">SOSETE</a>
+                                <a href="Lenjerie.html">LENJERIE</a>
+                                <a href="Mingi.html">MINGI</a></div></li>
+            <li><a href="../Convertor.html">CONVERTOR</a></li>
+            
+            
+            </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="social">
+                    <a href="https://www.facebook.com/"> 
+                        <li><img src="../images/facebook.png" alt="" ></li>
+                    </a>
+                    <a href="https://twitter.com/login?lang=ro">
+                    <li><img src="../images/twitter.png" alt="" ></li>
+                    </a>
+                    <a href="https://www.instagram.com/?hl=ro">
+                    <li><img src="../images/instagram.png" alt=""  width="35px" height="25px">   </li>
+                    </a>
+                <script>
+                    function startTime() {
+                        var today = new Date();
+                        var h = today.getHours();
+                        var m = today.getMinutes();
+                        var s = today.getSeconds();
+                        m = checkTime(m);
+                        s = checkTime(s);
+                        document.getElementById('txt').innerHTML =
+                        h + ":" + m + ":" + s;
+                        var t = setTimeout(startTime, 500);
+                            }
+                        function checkTime(i) {
+                        if (i < 10) {i = "0" + i};
+                        return i;
+                            }
+                        </script>
+                        <body onload="startTime()">
+    
+                        <div id="txt"></div>
+                </ul>
+            </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="icon">
+        <div class="container">
+        <div class="row">
+        <div class="col-sm-4">
+        <div class="title">
+        <img src="../images/Red.png" alt="">
+        <script> type="text/javascript"
+            function random_159(){
+                var myrandom=Math.round(Math.random()*4)
+                var link1="https://www.nike.com/gb/t/elite-crew-basketball-socks-D8XdR0"
+                var link2="https://ro.basketzone.net/product.8378.nike.elite.crew.socks.university.red.html"
+                var link3="https://www.tenniswarehouse-europe.com/Nike_Multiplier_2-Pack_Cushioned_Crew_Socks_Red/descpageNIKEH-NCMCRD-EN.html"
+                var link4="https://www.amazon.com/Elite-Basketball-Medium-University-SX7035-657/dp/B01MQYRTCL"
+                var link5="https://ro.basketzone.net/product.10026.nike.elite.christmas.crew.socks.gym.red.html"
+                if (myrandom==0)
+                    window.location=link1
+                else if (myrandom==1)
+                    window.location=link2
+                else if (myrandom==2)
+                    window.location=link3
+                    else if (myrandom==3)
+                    window.location=link4
+                    else if (myrandom==4)
+                    window.location=link5
+            }
+            </script>
+            <form>
+            <input type="button" value="Random" onClick="random_159()">
+            </form>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="title">
+        <img src="../images/Orange.png" alt="">
+        <script> type="text/javascript"
+            function random_160(){
+                var myrandom=Math.round(Math.random()*4)
+                var link1="https://owaishsb.bigcartel.com/product/nike-socks-dyed-pack-5"
+                var link2="https://stockx.com/nikelab-x-off-white-fb-socks-orange"
+                var link3="http://www.empire-leshop.com/socks-nike-sb,us,4,Nike_sb_socks_2_pack_orange.cfm"
+                var link4="https://www.matchwinner.co.uk/socks-c31/nike-park-socks-orange-black-p1986"
+                var link5="https://www.nycmode.com/men/accessories/socks/nike-dri-fit-elite-lightweight-quarter-socks"
+                if (myrandom==0)
+                    window.location=link1
+                else if (myrandom==1)
+                    window.location=link2
+                else if (myrandom==2)
+                    window.location=link3
+                    else if (myrandom==3)
+                    window.location=link4
+                    else if (myrandom==4)
+                    window.location=link5
+            }
+            </script>
+            <form>
+            <input type="button" value="Random" onClick="random_160()">
+            </form>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="title">
+        <img src="../images/Yellow.png" alt="">
+        <script> type="text/javascript"
+            function random_161(){
+                var myrandom=Math.round(Math.random()*4)
+                var link1="https://www.nike.com/gb/t/los-angeles-lakers-city-edition-elite-nba-crew-socks-8MSNqJ"
+                var link2="https://www.nike.com/gb/t/fc-barcelona-2019-20-stadium-away-over-calf-socks-G4s47k"
+                var link3="https://ro.basketzone.net/product.10374.nike.nba.los.angeles.lakers.city.edition.socks.amarillo.html"
+                var link4="https://besto24.com/en/soccer-socks/13645-nike-classic-ii-cush-otc-team-soccer-socks.html"
+                var link5="https://www.jbalestro.com/index.php?main_page=product_info&products_id=168836"
+                if (myrandom==0)
+                    window.location=link1
+                else if (myrandom==1)
+                    window.location=link2
+                else if (myrandom==2)
+                    window.location=link3
+                    else if (myrandom==3)
+                    window.location=link4
+                    else if (myrandom==4)
+                    window.location=link5
+            }
+            </script>
+            <form>
+            <input type="button" value="Random" onClick="random_161()">
+            </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="icon">
+            <div class="container">
+            <div class="row">
+            <div class="col-sm-4">
+            <div class="title">
+            <img src="../images/black.png" alt="">
+            <script> type="text/javascript"
+                function random_162(){
+                    var myrandom=Math.round(Math.random()*4)
+                    var link1="https://www.nike.com/gb/t/everyday-cushioned-training-ankle-socks-lZ03sD"
+                    var link2="https://www.asos.com/us/nike-training/nike-training-cotton-cushion-crew-socks-in-black/prd/11858612"
+                    var link3="https://www.asos.com/nike/nike-3-pack-black-crew-socks/prd/5455244"
+                    var link4="https://www.ebay.com/itm/NBA-Nike-Elite-Cushioned-Basketball-Crew-Black-White-Socks-SX7587-010-/372558489036"
+                    var link5="https://www.next.co.uk/style/st320664/340040"
+                    if (myrandom==0)
+                        window.location=link1
+                    else if (myrandom==1)
+                        window.location=link2
+                    else if (myrandom==2)
+                        window.location=link3
+                        else if (myrandom==3)
+                        window.location=link4
+                        else if (myrandom==4)
+                        window.location=link5
+                }
+                </script>
+                <form>
+                <input type="button" value="Random" onClick="random_162()">
+                </form>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="title">
+            <img src="../images/white.png" alt="">
+            <script> type="text/javascript"
+                function random_163(){
+                    var myrandom=Math.round(Math.random()*4)
+                    var link1="https://www.nike.com/gb/t/everyday-cushioned-training-ankle-socks-lZ03sD/SX7667-100"
+                    var link2="https://www.nike.com/gb/t/cushioned-crew-training-socks-svxXz9/SX6842-100"
+                    var link3="https://www.dillards.com/p/nike-mens-everyday-cushion-crew-sock-6-pack/508701786"
+                    var link4="https://www.ebay.com/itm/NBA-Nike-Elite-Ankle-Cushioned-Basketball-Mid-Crew-White-Black-Socks-SX7588-100-/332997983363"
+                    var link5="https://shelta.eu/category/accessories/socks/nike-unisex-everyday-cush-crew-socks-3-pack-white-sx7664-100"
+                    if (myrandom==0)
+                        window.location=link1
+                    else if (myrandom==1)
+                        window.location=link2
+                    else if (myrandom==2)
+                        window.location=link3
+                        else if (myrandom==3)
+                        window.location=link4
+                        else if (myrandom==4)
+                        window.location=link5
+                }
+                </script>
+                <form>
+                <input type="button" value="Random" onClick="random_163()">
+                </form>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="title">
+            <img src="../images/grey.png" alt="">
+            <script> type="text/javascript"
+                function random_164(){
+                    var myrandom=Math.round(Math.random()*3)
+                    var link1="https://www.asos.com/us/nike/nike-gray-swoosh-logo-3-pack-crew-socks/prd/12110027"
+                    var link2="https://shopee.com.my/Men%27s-NBA-Nike-Gray-Black-Elite-Performance-Crew-Socks-i.153255104.2302249222"
+                    var link3="https://lax-zone.com/products/nike-elite-crew-sock-grey-black"
+                    var link4="https://www.keepersport.net/keepersport-online-store/artikelDetail/socks-nike-promo-gk-socks-grey-3.html"
+               
+                    if (myrandom==0)
+                        window.location=link1
+                    else if (myrandom==1)
+                        window.location=link2
+                    else if (myrandom==2)
+                        window.location=link3
+                        else if (myrandom==3)
+                        window.location=link4
+              
+                }
+                </script>
+                <form>
+                <input type="button" value="Random" onClick="random_164()">
+                </form>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="icon">
+                <div class="container">
+                <div class="row">
+                <div class="col-sm-4">
+                <div class="title">
+                <img src="../images/blue.png" alt="">
+                <script> type="text/javascript"
+                    function random_165(){
+                        var myrandom=Math.round(Math.random()*4)
+                        var link1="https://ro.basketzone.net/product.10276.nike.nba.miami.heat.city.edition.socks.blue.gale.html"
+                        var link2="https://www.ebay.com/itm/Nike-Men-039-s-Blue-Elite-Basketball-Quarter-Length-Socks-4003-Size-L-/303254942827"
+                        var link3="https://owaishsb.bigcartel.com/product/nike-socks-dyed-light-blue"
+                        var link4="https://www.prokeepersline.nl/en/nike-classic-ii-socks-royal-blue.html"
+                        var link5="https://www.futbolemotion.com/en/buy/socks/nike/nikegrip-strike-light-royal-blue-white-0"
+                        if (myrandom==0)
+                            window.location=link1
+                        else if (myrandom==1)
+                            window.location=link2
+                        else if (myrandom==2)
+                            window.location=link3
+                            else if (myrandom==3)
+                            window.location=link4
+                            else if (myrandom==4)
+                            window.location=link5
+                    }
+                    </script>
+                    <form>
+                    <input type="button" value="Random" onClick="random_165()">
+                    </form>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                <div class="title">
+                <img src="../images/Green.png" alt="">
+                <script> type="text/javascript"
+                    function random_166(){
+                        var myrandom=Math.round(Math.random()*4)
+                        var link1="https://www.epantofi.ro/sosete-inalte-unisex-nike-sx7866-312-verde.html?gclsrc=aw.ds&&gclid=CjwKCAjwp-X0BRAFEiwAheRui0ysI6BmDHNBGlfZn71qZOD38OafRwUVnS2n3QgXR2fGKi6g4npSlRoCfdAQAvD_BwE"
+                        var link2="https://www.sportisimo.ro/nike/park-iv-sock/75747/"
+                        var link3="https://www.unisportstore.com/team-sport/nike-football-socks-classic-ii-pine-greenwhite/159769/"
+                        var link4="https://www.ebay.com/itm/Nike-Adults-Unisex-Long-Football-Socks-Sports-3-Pack-Green-242776-302-A37A-/392570775551"
+                        var link5="https://lax-zone.com/products/nike-elite-crew-sock-green-white"
+                        if (myrandom==0)
+                            window.location=link1
+                        else if (myrandom==1)
+                            window.location=link2
+                        else if (myrandom==2)
+                            window.location=link3
+                            else if (myrandom==3)
+                            window.location=link4
+                            else if (myrandom==4)
+                            window.location=link5
+                    }
+                    </script>
+                    <form>
+                    <input type="button" value="Random" onClick="random_166()">
+                    </form>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                <div class="title">
+                <img src="../images/lime.png" alt="">
+                <script> type="text/javascript"
+                    function random_167(){
+                        var myrandom=Math.round(Math.random()*3)
+                        var link1="https://www.amazon.com/Nike-Elite-Performance-Sock-Cyber/dp/B00H4BSW5I"
+                        var link2="https://www.sportisimo.ro/nike/compression-over-calf-socks/200756/"
+                        var link3="https://www.nike.com/gb/t/spark-lightweight-crew-running-socks-LdgH96/SK0050-757"
+                        var link4="http://www.minivila.com/nike-running-socks-cushioned-socks-elite-green-black-running-running-noshow-sp-1054.html"
+                      
+                        if (myrandom==0)
+                            window.location=link1
+                        else if (myrandom==1)
+                            window.location=link2
+                        else if (myrandom==2)
+                            window.location=link3
+                            else if (myrandom==3)
+                            window.location=link4
+                     
+                    }
+                    </script>
+                    <form>
+                    <input type="button" value="Random" onClick="random_167()">
+                    </form>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="icon">
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-sm-4">
+                    <div class="title">
+                    <img src="../images/purple.png" alt="">
+                    <script> type="text/javascript"
+                        function random_168(){
+                            var myrandom=Math.round(Math.random()*3)
+                            var link1="https://www.amazon.co.uk/Nike-Park-Purple-Socks/dp/B076WZZ85Z"
+                            var link2="https://nomu.fashion/designers/erl/three-pack-nike-edition-multicolor-logo-socks-ss191260m220044"
+                            var link3="https://www.truevintage.com/products/nike-tie-dye-socks-purple-pink"
+                            var link4="https://www.futbolemotion.com/en/buy/football-socks/nike/classic-ii-over-the-calf-football-court-purple-white"
+                           
+                            if (myrandom==0)
+                                window.location=link1
+                            else if (myrandom==1)
+                                window.location=link2
+                            else if (myrandom==2)
+                                window.location=link3
+                                else if (myrandom==3)
+                                window.location=link4
+                           
+                        }
+                        </script>
+                        <form>
+                        <input type="button" value="Random" onClick="random_168()">
+                        </form>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                    <div class="title">
+                    <img src="../images/brown.png" alt="">
+                    <script> type="text/javascript"
+                        function random_169(){
+                            var myrandom=Math.round(Math.random()*3)
+                            var link1="https://owaishsb.bigcartel.com/product/nike-socks-dyed-brown"
+                            var link2="https://owaishsb.bigcartel.com/product/nike-ankle-socks-brown"
+                            var link3="https://tacticalgear.com/nike-sfb-socks#/20609/0,21647/1"
+                            var link4="http://www.empire-leshop.com/socks-nike-sb,us,4,Nike_sb_socks_2_pack_GFX_camo.cfm"
+                            
+                            if (myrandom==0)
+                                window.location=link1
+                            else if (myrandom==1)
+                                window.location=link2
+                            else if (myrandom==2)
+                                window.location=link3
+                                else if (myrandom==3)
+                                window.location=link4
+                           
+                        }
+                        </script>
+                        <form>
+                        <input type="button" value="Random" onClick="random_169()">
+                        </form>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                    <div class="title">
+                    <img src="../images/pink.png" alt="">
+                    <script> type="text/javascript"
+                        function random_170(){
+                            var myrandom=Math.round(Math.random()*4)
+                            var link1="https://owaishsb.bigcartel.com/product/nike-socks-dyed-pink"
+                            var link2="https://owaishsb.bigcartel.com/product/socks-dyed-nike-pack-2"
+                            var link3="https://poshmark.com/listing/Pink-nike-elite-socks-5af235976bf5a6bee65ef32b"
+                            var link4="https://www.truevintage.com/products/nike-tie-dye-socks-block-pink"
+                            var link5="https://www.ebay.com/c/1300047839"
+                            if (myrandom==0)
+                                window.location=link1
+                            else if (myrandom==1)
+                                window.location=link2
+                            else if (myrandom==2)
+                                window.location=link3
+                                else if (myrandom==3)
+                                window.location=link4
+                                else if (myrandom==4)
+                                window.location=link5
+                        }
+                        </script>
+                        <form>
+                        <input type="button" value="Random" onClick="random_170()">
+                        </form>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    
+                    
+                        
+                        <div class="tail">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                    <ul class="social">
+                                        <a href="https://www.facebook.com/"> 
+                                            <li><img src="../images/facebook.png" alt="" ></li>
+                                        </a>
+                                        <a href="https://twitter.com/login?lang=ro">
+                                        <li><img src="../images/twitter.png" alt="" ></li>
+                                        </a>
+                                        <a href="https://www.instagram.com/?hl=ro">
+                                        <li><img src="../images/instagram.png" alt=""  width="35px" height="25px">   </li>
+                                        </a>
+                                        </ul>
+                                    </div>
+                                <div class="col-md-6">
+                                    <ul class="navigation">
+                                        <p class="text-center">PARTENERII NOSTRII</p>
+                                        <ul>CALLIROOTS</ul>
+                                        <ul>SNIPES</ul>
+                                        <ul>DOPE</ul>
+                                        <ul>SNEAKERS DISTRICT</ul>
+                                        
+                                                </ul>
+                                            </div>
+                                    <div class="col-md-3 contact">
+                                        <p class="text-center">Contact Us</p>
+                                        <p>Neferu Mihnea:+40 742 267 220</p>
+                                        <p>Valimareanu Andrei:+40 757 530 078</p>
+                                                
+                                    
+                                        <p>mihnea.neferu@asaff.ro</p>
+                                        <p>andrei_valimareanu_2000@yahoo.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class = "text-center">Splaiul Independentei 290,CAMIN P9-10, Bucuresti</p>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                        <button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+    <form action="../login.html" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body>
+</html> 

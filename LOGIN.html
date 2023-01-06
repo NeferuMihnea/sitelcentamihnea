@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	
+</head>
+<body>
+	<div class="top">
+	<div class="container">
+	
+	<div class="row">
+		
+		<div class="col-md-3">
+			<img src="PozeNike/logo.png" class="logo" alt=""  width"200px" height="100"/>
+		</div>
+		<div class="col-md-6">
+		<ul class="navigation">
+			<li>	<div class="dropdown">
+				<button class="dropbtn"><a href="homefinal.html">ADIDAȘI</button>
+					<div class="dropdown-content">
+						<a href="./Adidasi/Air-Max.html">AIR MAX</a>
+						<a href="Adidasi/Af-1.html">AIR FORCE ONE</a>
+						<a href="Adidasi/blaze.html">BLAZE</a>
+						<a href="Adidasi/SB.html">SB</a>
+						<a href="Adidasi/fotbal.html">FOTBAL</a>
+						<a href="Adidasi/baschet.html">BASKET</a></div></li>
+	<li> <div class="dropdown">
+				<button class="dropbtn"><a href="homefinal.html">HAINE</button>
+					<div class="dropdown-content">
+						<a href="Haine/Tricouri.html">TRICOURI</a>
+						<a href="Haine/Bluze.html">BLUZE</a>
+						<a href="Haine/Hanorace.html">HANORACE</a>
+						<a href="Haine/Trening.html">TRENING</a>
+						<a href="Haine/Pantaloni.html">PANTALONI</a>
+						<a href="Haine/Pantaloni-Scurti.html">PANTALONI SCURTI</a></div></li>
+	<li> <div class="dropdown">
+				<button class="dropbtn"><a href="homefinal.html">ACCESORII</button>
+					<div class="dropdown-content">
+						<a href="Accesori/Sepci.html">SEPCI</a>
+						<a href="Accesori/Portofele.html">PORTOFELE</a>
+						<a href="Accesori/Ceasuri.html">CEAS</a>
+						<a href="Accesori/Sosete.html">SOSETE</a>
+						<a href="Accesori/Lenjerie.html">LENJERIE</a>
+						<a href="Accesori/Mingi.html">MINGI</a></div></li>
+	<li><a href="./Convertor.html">CONVERTOR</a></li>
+		
+		
+		</ul>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+		<div class="col-md-3">
+			<ul class="social">
+			<a href="https://www.facebook.com/"> 
+				<li><img src="images/facebook.png" alt="" ></li>
+			</a>
+			<a href="https://twitter.com/login?lang=ro">
+			<li><img src="images/twitter.png" alt="" ></li>
+			</a>
+			<a href="https://www.instagram.com/?hl=ro">
+			<li><img src="images/instagram.png" alt=""  width="35px" height="25px">   </li>
+			</a>
+			<script>
+				function startTime() {
+					var today = new Date();
+					var h = today.getHours();
+					var m = today.getMinutes();
+					var s = today.getSeconds();
+					m = checkTime(m);
+					s = checkTime(s);
+					document.getElementById('txt').innerHTML =
+					h + ":" + m + ":" + s;
+					var t = setTimeout(startTime, 500);
+						}
+					function checkTime(i) {
+					if (i < 10) {i = "0" + i};
+					return i;
+						}
+					</script>
+					<body onload="startTime()">
+
+					<div id="txt"></div>
+			</ul>
+		</div>
+			</div>
+		</div>
+	</div>
+				
+				
+				
+				
+				
+				<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 205px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+</style>
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+	
+      
+      <div class="vl">
+       
+      </div>
+
+      <div class="col">
+        <a href="https://www.facebook.com/" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+        <a href="https://twitter.com/login?lang=ro" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="https://plus.google.com/" class="google btn"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </div>
+      
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="./FORUM.html" style="color:white" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="./RECOVER.html" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+	
+	
+	
+	
+	
+	<div class="tail">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+					<ul class="social">
+					</ul
+					</div>
+					</div>
+					</div>
+					</div>
+
+
+
+
+	
+
+		
+		<div class="tail">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+					<ul class="social">
+						<a href="https://www.facebook.com/"> 
+							<li><img src="images/facebook.png" alt="" ></li>
+						</a>
+						<a href="https://twitter.com/login?lang=ro">
+						<li><img src="images/twitter.png" alt="" ></li>
+						</a>
+						<a href="https://www.instagram.com/?hl=ro">
+						<li><img src="images/instagram.png" alt=""  width="35px" height="25px">   </li>
+						</a>
+						</ul>
+					</div>
+				<div class="col-md-6">
+					<ul class="navigation">
+						<p class="text-center">PARTENERII NOSTRII</p>
+						<ul>CALLIROOTS</ul>
+						<ul>SNIPES</ul>
+						<ul>DOPE</ul>
+						<ul>SNEAKERS DISTRICT</ul>
+						
+								</ul>
+							</div>
+					<div class="col-md-3 contact">
+						<p class="text-center">Contact Us</p>
+						<p>Neferu Mihnea:+40 742 267 220</p>
+						<p>Valimareanu Andrei:+40 757 530 078</p>
+								
+					
+						<p>mihnea.neferu@asaff.ro</p>
+						<p>andrei_valimareanu_2000@yahoo.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p class = "text-center">Splaiul Independentei 290,CAMIN P9-10, Bucuresti</p>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+		
+			
+		
+ <button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+    <form action="login.html" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+			
+</body>
+</html>

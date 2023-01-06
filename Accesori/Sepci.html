@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap Exercise</title>
+
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/styles.css">
+	<style>
+	
+	.col-md-12,
+	.col-md-9,
+	.col-md-3,
+	.col {
+	
+	text-align:center;
+	padding:20px;
+}
+</style>
+</head>
+<body>
+    <div class="top">
+        <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-md-3">
+                <img src="../PozeNike/logo.png" class="logo" alt=""  width"200px" height="100"/>
+            </div>
+            <div class="col-md-6">
+            <ul class="navigation">
+            <li>	<div class="dropdown">
+                        <button class="dropbtn"><a href="../Homefinal.html">ADIDAȘI</button>
+                            <div class="dropdown-content">
+                                <a href="../Adidasi/Air-Max.html">AIR MAX</a>
+                                <a href="../Adidasi/Af-1.html">AIR FORCE ONE</a>
+                                <a href="../Adidasi/blaze.html">BLAZE</a>
+                                <a href="../Adidasi/SB.html">SB</a>
+                                <a href="../Adidasi/fotbal.html">FOTBAL</a>
+                                <a href="../Adidasi/baschet.html">BASKET</a></div></li>
+            <li> <div class="dropdown">
+                        <button class="dropbtn"><a href="../Homefinal.html">HAINE</button>
+                            <div class="dropdown-content">
+                                <a href="../Haine/Tricouri.html">TRICOURI</a>
+                                <a href="../Haine/Bluze.html">BLUZE</a>
+                                <a href="../Haine/Hanorace.html">HANORACE</a>
+                                <a href="../Haine/Trening.html">TRENING</a>
+                                <a href="../Haine/Pantaloni.html">PANTALONI</a>
+                                <a href="../Haine/Pantaloni-Scurti.html">PANTALONI SCURTI</a></div></li>
+            <li> <div class="dropdown">
+                        <button class="dropbtn"><a href="../Homefinal.html">ACCESORII</button>
+                            <div class="dropdown-content">
+                                <a href="Sepci.html">SEPCI</a>
+                                <a href="Portofele.html">PORTOFELE</a>
+                                <a href="Ceasuri.html">CEAS</a>
+                                <a href="Sosete.html">SOSETE</a>
+                                <a href="Lenjerie.html">LENJERIE</a>
+                                <a href="Mingi.html">MINGI</a></div></li>
+            <li><a href="../Convertor.html">CONVERTOR</a></li>
+            
+            
+            </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="social">
+                    <a href="https://www.facebook.com/"> 
+                        <li><img src="../images/facebook.png" alt="" ></li>
+                    </a>
+                    <a href="https://twitter.com/login?lang=ro">
+                    <li><img src="../images/twitter.png" alt="" ></li>
+                    </a>
+                    <a href="https://www.instagram.com/?hl=ro">
+                    <li><img src="../images/instagram.png" alt=""  width="35px" height="25px">   </li>
+                    </a>
+                <script>
+                    function startTime() {
+                        var today = new Date();
+                        var h = today.getHours();
+                        var m = today.getMinutes();
+                        var s = today.getSeconds();
+                        m = checkTime(m);
+                        s = checkTime(s);
+                        document.getElementById('txt').innerHTML =
+                        h + ":" + m + ":" + s;
+                        var t = setTimeout(startTime, 500);
+                            }
+                        function checkTime(i) {
+                        if (i < 10) {i = "0" + i};
+                        return i;
+                            }
+                        </script>
+                        <body onload="startTime()">
+    
+                        <div id="txt"></div>
+                </ul>
+            </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="icon">
+        <div class="container">
+        <div class="row">
+        <div class="col-sm-4">
+        <div class="title">
+        <img src="../images/Red.png" alt="">
+        <script> type="text/javascript"
+            function random_135(){
+                var myrandom=Math.round(Math.random()*4)
+                var link1="https://www.sneakersnstuff.com/en/product/38426/nike-tailwind-visor-cap-acg"
+                var link2="https://www.footshop.eu/en/caps/26680-nike-sportswear-heritage-86-futura-washed-cap-red.html"
+                var link3="https://shopee.ph/Original-Nike-Sportswear-Heritage86-Futura-Washed-unisex-red-cap-i.27186201.5810251882"
+                var link4="https://sssports.com/nike-golf-aerobill-classic-99-cap-nkgf-892469-634"
+                var link5="https://shopee.com.my/Nike-Hat-Cap-Red-Textured-Surface-Baseball-Hat-Cap-Hip-Hop-Hat-Unisex-Cap-Outdoors-Cap-Snapback-Hat-Caps-Hats-i.191086540.6311321512"
+                if (myrandom==0)
+                    window.location=link1
+                else if (myrandom==1)
+                    window.location=link2
+                else if (myrandom==2)
+                    window.location=link3
+                    else if (myrandom==3)
+                    window.location=link4
+                    else if (myrandom==4)
+                    window.location=link5
+            }
+            </script>
+            <form>
+            <input type="button" value="Random" onClick="random_135()">
+            </form>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="title">
+        <img src="../images/Orange.png" alt="">
+        <script> type="text/javascript"
+            function random_136(){
+                var myrandom=Math.round(Math.random()*4)
+                var link1="https://caliroots.com/nike-metal-swoosh-cap-340225-804/p/70576"
+                var link2="https://www.discountgolfworld.com/nike-legacy-91-custom-tech-blank-cap-727043-p32262"
+                var link3="https://caliroots.com/nike-metal-swoosh-h86-cap-943092-833/p/121810"
+                var link4="https://www.fansedge.com/nike-tennessee-volunteers-tennessee-orange-big-swoosh-heritage-86-adjustable-hat/p-3362166"
+                var link5="https://www.ajio.com/nike-cotton-baseball-cap/p/460365674_orange"
+                if (myrandom==0)
+                    window.location=link1
+                else if (myrandom==1)
+                    window.location=link2
+                else if (myrandom==2)
+                    window.location=link3
+                    else if (myrandom==3)
+                    window.location=link4
+                    else if (myrandom==4)
+                    window.location=link5
+            }
+            </script>
+            <form>
+            <input type="button" value="Random" onClick="random_136()">
+            </form>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="title">
+        <img src="../images/Yellow.png" alt="">
+        <script> type="text/javascript"
+            function random_137(){
+                var myrandom=Math.round(Math.random()*4)
+                var link1="https://www.footshop.eu/en-uk/caps/30719-nike-heritage-86-futura-washed-cap-yellow.html"
+                var link2="https://caliroots.com/nike-futura-cap-h86-washed-913011-739/p/129695"
+                var link3="https://www.endclothing.com/row/nike-futura-washed-h86-cap-913011-752.html"
+                var link4="https://caliroots.com/nike-sportswear-h86-cap-913011-752/p/107853"
+                var link5="https://en.aw-lab.com/men/accessories/nike-futura-washed-cap-AW_22199V_UNSWH86FU_9898150.html"
+                if (myrandom==0)
+                    window.location=link1
+                else if (myrandom==1)
+                    window.location=link2
+                else if (myrandom==2)
+                    window.location=link3
+                    else if (myrandom==3)
+                    window.location=link4
+                    else if (myrandom==4)
+                    window.location=link5
+            }
+            </script>
+            <form>
+            <input type="button" value="Random" onClick="random_137()">
+            </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="icon">
+            <div class="container">
+            <div class="row">
+            <div class="col-sm-4">
+            <div class="title">
+            <img src="../images/black.png" alt="">
+            <script> type="text/javascript"
+                function random_138(){
+                    var myrandom=Math.round(Math.random()*4)
+                    var link1="https://caliroots.com/nike-air-tailwind-cap-cu6344-010/p/135287"
+                    var link2="https://caliroots.com/nike-sb-heritage86-cap-cq9276-010/p/135454"
+                    var link3="https://caliroots.com/nike-cap-aw84-2000-cw1787-010/p/129715"
+                    var link4="https://caliroots.com/nike-metal-swoosh-h86-cap-943092-010/p/103825"
+                    var link5="https://caliroots.com/nike-sb-heritage86-cap-av7884-010/p/116378"
+                    if (myrandom==0)
+                        window.location=link1
+                    else if (myrandom==1)
+                        window.location=link2
+                    else if (myrandom==2)
+                        window.location=link3
+                        else if (myrandom==3)
+                        window.location=link4
+                        else if (myrandom==4)
+                        window.location=link5
+                }
+                </script>
+                <form>
+                <input type="button" value="Random" onClick="random_138()">
+                </form>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="title">
+            <img src="../images/white.png" alt="">
+            <script> type="text/javascript"
+                function random_139(){
+                    var myrandom=Math.round(Math.random()*4)
+                    var link1="https://caliroots.com/nike-air-tailwind-cap-cu6344-101/p/135289"
+                    var link2="https://caliroots.com/nike-sb-h86-cap-flatbill-aop-cq9274-100/p/129910"
+                    var link3="https://caliroots.com/nike-metal-swoosh-h86-cap-943092-100/p/121075"
+                    var link4="https://www.sneakersnstuff.com/en/product/38831/nike-aerobill-cap"
+                    var link5="https://www.snipes.com/p/nike_sportswear-nsw_h86_futura_essential_swh_-white%2Fwhite-00013801560534.html"
+                    if (myrandom==0)
+                        window.location=link1
+                    else if (myrandom==1)
+                        window.location=link2
+                    else if (myrandom==2)
+                        window.location=link3
+                        else if (myrandom==3)
+                        window.location=link4
+                        else if (myrandom==4)
+                        window.location=link5
+                }
+                </script>
+                <form>
+                <input type="button" value="Random" onClick="random_139()">
+                </form>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="title">
+            <img src="../images/grey.png" alt="">
+            <script> type="text/javascript"
+                function random_140(){
+                    var myrandom=Math.round(Math.random()*4)
+                    var link1="https://www.snipes.com/p/nike_sportswear-clc99_cap_ft_trucker-black-00013801790166.html"
+                    var link2="https://caliroots.com/nike-metal-swoosh-h86-cap-943092-021/p/129691"
+                    var link3="https://www.footshop.eu/en-uk/caps/50583-nike-sportswear-h86-futura-wash-cap-iron-grey.html"
+                    var link4="https://www.babyshop.com/areobill-classic-99-training-cap-grey-and-orange/p/231962"
+                    var link5="https://www.totalsports.co.za/pdp/nike-metal-swoosh-sportswear-heritage86-dark-grey-cap/_/A-139200AAJD8;jsessionid=GzcX2fvPl388hKC2UX5nq39XRwkxmy1eW9-sTm-W.com02"
+                    if (myrandom==0)
+                        window.location=link1
+                    else if (myrandom==1)
+                        window.location=link2
+                    else if (myrandom==2)
+                        window.location=link3
+                        else if (myrandom==3)
+                        window.location=link4
+                        else if (myrandom==4)
+                        window.location=link5
+                }
+                </script>
+                <form>
+                <input type="button" value="Random" onClick="random_140()">
+                </form>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="icon">
+                <div class="container">
+                <div class="row">
+                <div class="col-sm-4">
+                <div class="title">
+                <img src="../images/blue.png" alt="">
+                <script> type="text/javascript"
+                    function random_141(){
+                        var myrandom=Math.round(Math.random()*4)
+                        var link1="https://caliroots.com/nike-sb-aw84-cap-cu6500-410/p/135456"
+                        var link2="https://caliroots.com/nike-sb-heritage86-cap-cq9276-451/p/135455"
+                        var link3="https://caliroots.com/nike-sb-h86-cap-flatbill-aop-cq9274-446/p/129911"
+                        var link4="https://www.sneakersnstuff.com/en/product/38479/nike-acg-tailwind-visor-cap"
+                        var link5="https://www.snipes.com/p/nike-heritage_86_cap_futura_air-midnight_navy-00013801828246.html"
+                        if (myrandom==0)
+                            window.location=link1
+                        else if (myrandom==1)
+                            window.location=link2
+                        else if (myrandom==2)
+                            window.location=link3
+                            else if (myrandom==3)
+                            window.location=link4
+                            else if (myrandom==4)
+                            window.location=link5
+                    }
+                    </script>
+                    <form>
+                    <input type="button" value="Random" onClick="random_141()">
+                    </form>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                <div class="title">
+                <img src="../images/Green.png" alt="">
+                <script> type="text/javascript"
+                    function random_142(){
+                        var myrandom=Math.round(Math.random()*4)
+                        var link1="https://www.footshop.eu/en-uk/caps/37909-nike-heritage-86-futura-washed-cap-green.html"
+                        var link2="https://www.amazon.co.uk/Nike-Sportswear-Aerobill-Green-Adjustable/dp/B07KDBWXS4"
+                        var link3="https://www.stylefile.com/nike-twill-h86-cap-green-fid-131356.html"
+                        var link4="https://stockx.com/nike-x-parra-cap-forest-green"
+                        var link5="https://www.golfworld.com.au/nike-tour-legacy-cap-gorge-green"
+                        if (myrandom==0)
+                            window.location=link1
+                        else if (myrandom==1)
+                            window.location=link2
+                        else if (myrandom==2)
+                            window.location=link3
+                            else if (myrandom==3)
+                            window.location=link4
+                            else if (myrandom==4)
+                            window.location=link5
+                    }
+                    </script>
+                    <form>
+                    <input type="button" value="Random" onClick="random_142()">
+                    </form>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                <div class="title">
+                <img src="../images/lime.png" alt="">
+                <script> type="text/javascript"
+                    function random_143(){
+                        var myrandom=Math.round(Math.random()*4)
+                        var link1="https://www.merchology.com/products/nike-swoosh-cap-green"
+                        var link2="https://stockx.com/supreme-nike-trail-running-hat-green"
+                        var link3="https://www.golfposer.com/nike-tour-legacy-mesh-golf-cap-green-strike-aw15"
+                        var link4="https://www.fullsource.com/nike-1164323/"
+                        var link5="https://tiendavirtualfairplay.com/gorras-/790-gorra-nike-tour-legacy-golf.html"
+                        if (myrandom==0)
+                            window.location=link1
+                        else if (myrandom==1)
+                            window.location=link2
+                        else if (myrandom==2)
+                            window.location=link3
+                            else if (myrandom==3)
+                            window.location=link4
+                            else if (myrandom==4)
+                            window.location=link5
+                    }
+                    </script>
+                    <form>
+                    <input type="button" value="Random" onClick="random_143()">
+                    </form>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="icon">
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-sm-4">
+                    <div class="title">
+                    <img src="../images/purple.png" alt="">
+                    <script> type="text/javascript"
+                        function random_144(){
+                            var myrandom=Math.round(Math.random()*4)
+                            var link1="https://www.footshop.ro/ro/epci/50582-nike-sportswear-heritage-86-futura-wash-cap-gravity-purple.html"
+                            var link2="https://sportspowerwg.com.au/products/nike-adult-court-aerobill-featherlight-cap-psychic-purple-black-white?variant=29381751963746"
+                            var link3="https://www.e-tennis.com/nike-heritage86-unisex-tennis-cap-purple-nebula.html"
+                            var link4="https://www.hats2020s.com/purple-nike-hat_p4"
+                            var link5="https://www.hats2020s.com/purple-nike-hat_p12"
+                            if (myrandom==0)
+                                window.location=link1
+                            else if (myrandom==1)
+                                window.location=link2
+                            else if (myrandom==2)
+                                window.location=link3
+                                else if (myrandom==3)
+                                window.location=link4
+                                else if (myrandom==4)
+                                window.location=link5
+                        }
+                        </script>
+                        <form>
+                        <input type="button" value="Random" onClick="random_144()">
+                        </form>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                    <div class="title">
+                    <img src="../images/brown.png" alt="">
+                    <script> type="text/javascript"
+                        function random_145(){
+                            var myrandom=Math.round(Math.random()*4)
+                            var link1="https://stockx.com/nike-nsw-patta-cap-velvet-brown"
+                            var link2="https://poshmark.com/listing/Brown-Nike-hat-5b156968c2e9fe85f5e9cc03"
+                            var link3="https://www.caps2019s.com/brown-nike-cap_p6"
+                            var link4="https://www.caps2019s.com/brown-nike-cap_p12"
+                            var link5="https://www.caps2019s.com/brown-nike-cap_p18"
+                            if (myrandom==0)
+                                window.location=link1
+                            else if (myrandom==1)
+                                window.location=link2
+                            else if (myrandom==2)
+                                window.location=link3
+                                else if (myrandom==3)
+                                window.location=link4
+                                else if (myrandom==4)
+                                window.location=link5
+                        }
+                        </script>
+                        <form>
+                        <input type="button" value="Random" onClick="random_145()">
+                        </form>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                    <div class="title">
+                    <img src="../images/pink.png" alt="">
+                    <script> type="text/javascript"
+                        function random_146(){
+                            var myrandom=Math.round(Math.random()*4)
+                            var link1="https://www.caps2019s.com/pink-nike-cap_p1"
+                            var link2="https://www.caps2019s.com/pink-nike-cap_p2"
+                            var link3="https://www.caps2019s.com/pink-nike-cap_p3"
+                            var link4="https://www.caps2019s.com/pink-nike-cap_p4"
+                            var link5="https://www.caps2019s.com/pink-nike-cap_p5"
+                            if (myrandom==0)
+                                window.location=link1
+                            else if (myrandom==1)
+                                window.location=link2
+                            else if (myrandom==2)
+                                window.location=link3
+                                else if (myrandom==3)
+                                window.location=link4
+                                else if (myrandom==4)
+                                window.location=link5
+                        }
+                        </script>
+                        <form>
+                        <input type="button" value="Random" onClick="random_146()">
+                        </form>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    
+                   
+                        
+                        <div class="tail">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                    <ul class="social">
+                                        <a href="https://www.facebook.com/"> 
+                                            <li><img src="../images/facebook.png" alt="" ></li>
+                                        </a>
+                                        <a href="https://twitter.com/login?lang=ro">
+                                        <li><img src="../images/twitter.png" alt="" ></li>
+                                        </a>
+                                        <a href="https://www.instagram.com/?hl=ro">
+                                        <li><img src="../images/instagram.png" alt=""  width="35px" height="25px">   </li>
+                                        </a>
+                                        </ul>
+                                    </div>
+                                <div class="col-md-6">
+                                    <ul class="navigation">
+                                        <p class="text-center">PARTENERII NOSTRII</p>
+                                        <ul>CALLIROOTS</ul>
+                                        <ul>SNIPES</ul>
+                                        <ul>DOPE</ul>
+                                        <ul>SNEAKERS DISTRICT</ul>
+                                        
+                                                </ul>
+                                            </div>
+                                    <div class="col-md-3 contact">
+                                        <p class="text-center">Contact Us</p>
+                                        <p>Neferu Mihnea:+40 742 267 220</p>
+                                        <p>Valimareanu Andrei:+40 757 530 078</p>
+                                                
+                                    
+                                        <p>mihnea.neferu@asaff.ro</p>
+                                        <p>andrei_valimareanu_2000@yahoo.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class = "text-center">Splaiul Independentei 290,CAMIN P9-10, Bucuresti</p>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+    <form action="../login.html" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+                    
+</body>
+</html> 

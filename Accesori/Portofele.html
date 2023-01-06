@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap Exercise</title>
+
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/styles.css">
+	<style>
+	
+	.col-md-12,
+	.col-md-9,
+	.col-md-3,
+	.col {
+	
+	text-align:center;
+	padding:20px;
+}
+</style>
+</head>
+<body>
+    <div class="top">
+        <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-md-3">
+                <img src="../PozeNike/logo.png" class="logo" alt=""  width"200px" height="100"/>
+            </div>
+            <div class="col-md-6">
+            <ul class="navigation">
+            <li>	<div class="dropdown">
+                        <button class="dropbtn"><a href="../Homefinal.html">ADIDAȘI</button>
+                            <div class="dropdown-content">
+                                <a href="../Adidasi/Air-Max.html">AIR MAX</a>
+                                <a href="../Adidasi/Af-1.html">AIR FORCE ONE</a>
+                                <a href="../Adidasi/blaze.html">BLAZE</a>
+                                <a href="../Adidasi/SB.html">SB</a>
+                                <a href="../Adidasi/fotbal.html">FOTBAL</a>
+                                <a href="../Adidasi/baschet.html">BASKET</a></div></li>
+            <li> <div class="dropdown">
+                        <button class="dropbtn"><a href="../Homefinal.html">HAINE</button>
+                            <div class="dropdown-content">
+                                <a href="../Haine/Tricouri.html">TRICOURI</a>
+                                <a href="../Haine/Bluze.html">BLUZE</a>
+                                <a href="../Haine/Hanorace.html">HANORACE</a>
+                                <a href="../Haine/Trening.html">TRENING</a>
+                                <a href="../Haine/Pantaloni.html">PANTALONI</a>
+                                <a href="../Haine/Pantaloni-Scurti.html">PANTALONI SCURTI</a></div></li>
+            <li> <div class="dropdown">
+                        <button class="dropbtn"><a href="../Homefinal.html">ACCESORII</button>
+                            <div class="dropdown-content">
+                                <a href="Sepci.html">SEPCI</a>
+                                <a href="Portofele.html">PORTOFELE</a>
+                                <a href="Ceasuri.html">CEAS</a>
+                                <a href="Sosete.html">SOSETE</a>
+                                <a href="Lenjerie.html">LENJERIE</a>
+                                <a href="Mingi.html">MINGI</a></div></li>
+            <li><a href="../Convertor.html">CONVERTOR</a></li>
+            
+            
+            </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="social">
+                    <a href="https://www.facebook.com/"> 
+                        <li><img src="../images/facebook.png" alt="" ></li>
+                    </a>
+                    <a href="https://twitter.com/login?lang=ro">
+                    <li><img src="../images/twitter.png" alt="" ></li>
+                    </a>
+                    <a href="https://www.instagram.com/?hl=ro">
+                    <li><img src="../images/instagram.png" alt=""  width="35px" height="25px">   </li>
+                    </a>
+                <script>
+                    function startTime() {
+                        var today = new Date();
+                        var h = today.getHours();
+                        var m = today.getMinutes();
+                        var s = today.getSeconds();
+                        m = checkTime(m);
+                        s = checkTime(s);
+                        document.getElementById('txt').innerHTML =
+                        h + ":" + m + ":" + s;
+                        var t = setTimeout(startTime, 500);
+                            }
+                        function checkTime(i) {
+                        if (i < 10) {i = "0" + i};
+                        return i;
+                            }
+                        </script>
+                        <body onload="startTime()">
+    
+                        <div id="txt"></div>
+                </ul>
+            </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="icon">
+        <div class="container">
+        <div class="row">
+        <div class="col-sm-4">
+        <div class="title">
+        <img src="../images/Red.png" alt="">
+        <script> type="text/javascript"
+            function random_147(){
+                var myrandom=Math.round(Math.random()*4)
+                var link1="https://www.amazon.com/Nike-Basic-Wallet-Bright-Crimson/dp/B01AK22V2W"
+                var link2="https://www.cityofwellington.co.nz/accessories/wallets/red-nike-walletnike-nike-mens-wallets-basic-approbation-bhklnqsty6-2126.html"
+                var link3="https://www.sportvision.ro/portofele/249542-nike-basic-wallet-bright-crimsonwhite"
+                var link4="https://www.traininn.com/fitness-gym/nike-accessories-basic-wallet/135900368/p"
+                var link5="http://mail.sports-wear.com.my/sportswear/main.php?main=viewProduct&ID=2605"
+                if (myrandom==0)
+                    window.location=link1
+                else if (myrandom==1)
+                    window.location=link2
+                else if (myrandom==2)
+                    window.location=link3
+                    else if (myrandom==3)
+                    window.location=link4
+                    else if (myrandom==4)
+                    window.location=link5
+            }
+            </script>
+            <form>
+            <input type="button" value="Random" onClick="random_147()">
+            </form>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="title">
+        <img src="../images/Orange.png" alt="">
+        <script> type="text/javascript"
+            function random_148(){
+                var myrandom=Math.round(Math.random()*2)
+                var link1="https://www.ebay.ca/itm/Nike-Wallet-Credit-Card-Holder-Zip-Purse-Coins-Cash-Unisex-Orange-NWT-NJA00907NS-/131643337142"
+                var link2="https://www.endclothing.com/row/nike-travel-shoebox-ba6149-810.html"
+                var link3="https://www.butyjana.co.uk/nike-basic-wallet-nia08693ns.html"
+     
+                if (myrandom==0)
+                    window.location=link1
+                else if (myrandom==1)
+                    window.location=link2
+                else if (myrandom==2)
+                    window.location=link3
+    
+            }
+            </script>
+            <form>
+            <input type="button" value="Random" onClick="random_148()">
+            </form>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="title">
+        <img src="../images/Yellow.png" alt="">
+        <script> type="text/javascript"
+            function random_149(){
+                var myrandom=Math.round(Math.random()*2)
+                var link1="https://en-global.namshi.com/buy-nike-vault-wallet-77312.html"
+                var link2="https://en-global.namshi.com/buy-nike-vault-wallet-77312.html"
+                var link3="https://hypebeast.com/2007/8/nike-runners-velcro-wallet"
+            
+                if (myrandom==0)
+                    window.location=link1
+                else if (myrandom==1)
+                    window.location=link2
+                else if (myrandom==2)
+                    window.location=link3
+          
+            }
+            </script>
+            <form>
+            <input type="button" value="Random" onClick="random_149()">
+            </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="icon">
+            <div class="container">
+            <div class="row">
+            <div class="col-sm-4">
+            <div class="title">
+            <img src="../images/black.png" alt="">
+            <script> type="text/javascript"
+                function random_150(){
+                    var myrandom=Math.round(Math.random()*4)
+                    var link1="https://www.amazon.co.uk/Nike-Basic-Wallet-Purse/dp/B07HSFYT19"
+                    var link2="https://www.outletinn.com/deals/nike-accessories-basic-wallet/1328312/p"
+                    var link3="https://www.ebay.com/itm/Nike-Wallet-Black-Credit-Card-Holder-Zip-Purse-Coins-Cash-Unisex-Retro-OldSchool-/272759000096"
+                    var link4="https://en-ae.namshi.com/buy-nike-basic-wallet-116368.html"
+                    var link5="https://www.peacelovebagels.com/women-nike-passcase-wallet-fashion-sale-women-nike-wallets-colorblack-nike-women-wallets-fashion-sale-nike-id8183rlrm-p-3124.html"
+                    if (myrandom==0)
+                        window.location=link1
+                    else if (myrandom==1)
+                        window.location=link2
+                    else if (myrandom==2)
+                        window.location=link3
+                        else if (myrandom==3)
+                        window.location=link4
+                        else if (myrandom==4)
+                        window.location=link5
+                }
+                </script>
+                <form>
+                <input type="button" value="Random" onClick="random_150()">
+                </form>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="title">
+            <img src="../images/white.png" alt="">
+            <script> type="text/javascript"
+                function random_151(){
+                    var myrandom=Math.round(Math.random()*3)
+                    var link1="https://www.lastcall.com/Nike-Leather-Bi-Fold-Wallet-White/prod39980002/p.prod?ecid=LCZ_Z__PIN"
+                    var link2="https://www.endclothing.com/row/nike-hip-pack-ba5751-072.html?173=one-size&cm_mmc=AWIN-_-104504-_-Deeplink-_-Generic&awc=17185_1587156015_50c2f958b0a88bb9290ce7b23c75f56c&utm_source=awin&utm_medium=affiliate&utm_campaign=Lyst+Ltd"
+                    var link3="https://www.depop.com/products/zekethings-like-new-nike-flip-wallet/"
+                    var link4="https://www.snapdeal.com/product/nike-black-white-sportswear-leather/1974985719"
+                
+                    if (myrandom==0)
+                        window.location=link1
+                    else if (myrandom==1)
+                        window.location=link2
+                    else if (myrandom==2)
+                        window.location=link3
+                        else if (myrandom==3)
+                        window.location=link4
+             
+                }
+                </script>
+                <form>
+                <input type="button" value="Random" onClick="random_151()">
+                </form>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="title">
+            <img src="../images/grey.png" alt="">
+            <script> type="text/javascript"
+                function random_152(){
+                    var myrandom=Math.round(Math.random()*2)
+                    var link1="https://www.zumiez.com/nike-tech-essential-black-bifold-wallet.html"
+                    var link2="https://www.lastcall.com/Nike-Men-s-Block-Leather-Wallet-Grey/prod50300267/p.prod"
+                    var link3="https://poshmark.com/listing/Mens-Nike-Frint-Pocket-wallet-with-money-clip-5c83db9fc2e9fe9d093a2ffe"
+          
+                    if (myrandom==0)
+                        window.location=link1
+                    else if (myrandom==1)
+                        window.location=link2
+                    else if (myrandom==2)
+                        window.location=link3
+           
+                }
+                </script>
+                <form>
+                <input type="button" value="Random" onClick="random_152()">
+                </form>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="icon">
+                <div class="container">
+                <div class="row">
+                <div class="col-sm-4">
+                <div class="title">
+                <img src="../images/blue.png" alt="">
+                <script> type="text/javascript"
+                    function random_153(){
+                        var myrandom=Math.round(Math.random()*4)
+                        var link1="http://www.theaegis.in/nike-performance-wallet-blue-for-women-y67y9893-p-109.html"
+                        var link2="https://www.ebay.com/itm/Nike-Basic-Wallet-Blue-/143450183906"
+                        var link3="https://www.lazada.sg/products/nike-basic-wallet-blue-i266844335-s414487595.html"
+                        var link4="https://www.ebay.com/c/2194538436"
+                        var link5="https://www.depop.com/products/nike-wallet-nike-wallet-blue/"
+                        if (myrandom==0)
+                            window.location=link1
+                        else if (myrandom==1)
+                            window.location=link2
+                        else if (myrandom==2)
+                            window.location=link3
+                            else if (myrandom==3)
+                            window.location=link4
+                            else if (myrandom==4)
+                            window.location=link5
+                    }
+                    </script>
+                    <form>
+                    <input type="button" value="Random" onClick="random_153()">
+                    </form>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                <div class="title">
+                <img src="../images/Green.png" alt="">
+                <script> type="text/javascript"
+                    function random_154(){
+                        var myrandom=Math.round(Math.random()*2)
+                        var link1="https://poshmark.com/listing/Nike-Wallet-Green-White-Swoosh-Zip-Around-5a6a4380077b9739741b6ac2"
+                        var link2="https://bfe.com.au/product/nike-basic-wallet-voltage-green/"
+                        var link3="https://www.bazaraki.com/adv/1742957_mens-womens-nike-basic-wallets-money-notes-coins-credit-card-wallet-wi/"
+                        
+                        if (myrandom==0)
+                            window.location=link1
+                        else if (myrandom==1)
+                            window.location=link2
+                        else if (myrandom==2)
+                            window.location=link3
+         
+                    }
+                    </script>
+                    <form>
+                    <input type="button" value="Random" onClick="random_154()">
+                    </form>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                <div class="title">
+                <img src="../images/lime.png" alt="">
+                <script> type="text/javascript"
+                    function random_155(){
+                        var myrandom=Math.round(Math.random()*3)
+                        var link1="https://50style.pl/nike-portfel-basic-wallet-green-damskie-portfele-zielony-nia08725ns"
+                        var link2="https://goods.kaypu.com/gi/EN/5501ec629afc8d551a1b9938/887791006318/Nike%20Mens%20Basic%20Wallet%20Green"
+                        var link3="https://www.pelemall.com/products/219952/unisex-nike-basic-wallet-volt-wolf-gray-cuzdan-n-ia-08-725/detail"
+                        var link4="https://www.molo-sport.ro/nike/basic-wallet/129909/"
+                       
+                        if (myrandom==0)
+                            window.location=link1
+                        else if (myrandom==1)
+                            window.location=link2
+                        else if (myrandom==2)
+                            window.location=link3
+                            else if (myrandom==3)
+                            window.location=link4
+                      
+                    }
+                    </script>
+                    <form>
+                    <input type="button" value="Random" onClick="random_155()">
+                    </form>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="icon">
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-sm-4">
+                    <div class="title">
+                    <img src="../images/purple.png" alt="">
+                    <script> type="text/javascript"
+                        function random_156(){
+                            var myrandom=Math.round(Math.random()*3)
+                            var link1="https://www.amazon.co.uk/Nike-Heritage-Wallet-Court-Purple/dp/B00YDCSZEE"
+                            var link2="https://www.snapdeal.com/product/nike-sporty-purple-canvas-wallet/179159393"
+                            var link3="https://en-global.namshi.com/buy-nike-heritage-small-wallet-151296.html"
+                            var link4="https://www.depop.com/products/graderz-vintage-nike-velcro-wallet-rare/"
+                            
+                            if (myrandom==0)
+                                window.location=link1
+                            else if (myrandom==1)
+                                window.location=link2
+                            else if (myrandom==2)
+                                window.location=link3
+                                else if (myrandom==3)
+                                window.location=link4
+                     
+                        }
+                        </script>
+                        <form>
+                        <input type="button" value="Random" onClick="random_156()">
+                        </form>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                    <div class="title">
+                    <img src="../images/brown.png" alt="">
+                    <script> type="text/javascript"
+                        function random_157(){
+                            var myrandom=Math.round(Math.random()*3)
+                            var link1="http://www.prettylong.com/us/product/mens-nike-leather-passcase-wallet-brown/"
+                            var link2="http://popgiftideas.net/show/169986"
+                            var link3="https://www.amazon.in/Nike-Golf-Leather-Wallet-Passcase/dp/B01CV3KVO8"
+                            var link4="http://skateparkoftampa.com/spot/p.aspx?ID=18663"
+                        
+                            if (myrandom==0)
+                                window.location=link1
+                            else if (myrandom==1)
+                                window.location=link2
+                            else if (myrandom==2)
+                                window.location=link3
+                                else if (myrandom==3)
+                                window.location=link4
+                      
+                        }
+                        </script>
+                        <form>
+                        <input type="button" value="Random" onClick="random_157()">
+                        </form>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                    <div class="title">
+                    <img src="../images/pink.png" alt="">
+                    <script> type="text/javascript"
+                        function random_158(){
+                            var myrandom=Math.round(Math.random()*4)
+                            var link1="https://www.amazon.co.uk/Nike-Basic-Wallet/dp/B01347XE0S"
+                            var link2="https://www.zalora.com.ph/nike-nike-heritage-small-wallet-pink-1337093.html"
+                            var link3="https://www.ebay.com/itm/NIKE-Womens-Heritage-Long-Bi-Fold-With-Full-Zipper-Wallet-Pink-/153751907434"
+                            var link4="https://www.amazon.com/nike-coin-wallet-flash-black/dp/b00snthw88"
+                            var link5="https://www.prestomall.com/productdetail/1pt-546-nike-preferred-wallet-pink-60962739"
+                            if (myrandom==0)
+                                window.location=link1
+                            else if (myrandom==1)
+                                window.location=link2
+                            else if (myrandom==2)
+                                window.location=link3
+                                else if (myrandom==3)
+                                window.location=link4
+                                else if (myrandom==4)
+                                window.location=link5
+                        }
+                        </script>
+                        <form>
+                        <input type="button" value="Random" onClick="random_158()">
+                        </form>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    
+                   
+                        
+                        <div class="tail">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                    <ul class="social">
+                                        <a href="https://www.facebook.com/"> 
+                                            <li><img src="../images/facebook.png" alt="" ></li>
+                                        </a>
+                                        <a href="https://twitter.com/login?lang=ro">
+                                        <li><img src="../images/twitter.png" alt="" ></li>
+                                        </a>
+                                        <a href="https://www.instagram.com/?hl=ro">
+                                        <li><img src="../images/instagram.png" alt=""  width="35px" height="25px">   </li>
+                                        </a>
+                                        </ul>
+                                    </div>
+                                <div class="col-md-6">
+                                    <ul class="navigation">
+                                        <p class="text-center">PARTENERII NOSTRII</p>
+                                        <ul>CALLIROOTS</ul>
+                                        <ul>SNIPES</ul>
+                                        <ul>DOPE</ul>
+                                        <ul>SNEAKERS DISTRICT</ul>
+                                        
+                                                </ul>
+                                            </div>
+                                    <div class="col-md-3 contact">
+                                        <p class="text-center">Contact Us</p>
+                                        <p>Neferu Mihnea:+40 742 267 220</p>
+                                        <p>Valimareanu Andrei:+40 757 530 078</p>
+                                                
+                                    
+                                        <p>mihnea.neferu@asaff.ro</p>
+                                        <p>andrei_valimareanu_2000@yahoo.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class = "text-center">Splaiul Independentei 290,CAMIN P9-10, Bucuresti</p>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+    <form action="../login.html" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+                    
+</body>
+</html> 
